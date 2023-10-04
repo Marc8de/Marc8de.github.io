@@ -1,51 +1,109 @@
-/* sheepy */
+/* world population 101 */
+/* style sheet */
 
-.movingtext {color: black; 
-			font-size: 18px; 
-			font-weight: bolder; 
-			font-family: helvetica, sans-serif; 
-			padding: 8px; 
-			background-color: lightcyan; 
-			text-indent: 30px}
+html {box-sizing: border-box;}
+*,*:before, *:after {box-sizing: inherit;}
 
-/*   Nav     */
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+.clearfix:after {
+clear: both;
+}
 
-ul { list-style-type: none; } /* - bullets */
-a { text-decoration: none; } /* - underline */ 
-img {margin-left: 35px}
-li {display: inline; margin-inline-end: 50px;}
-
-#A-sheep  { color: dodgerblue; font-size: 18px; font-weight: bolder; font-family: helvetica, sans-serif;} 
-#Some-sheep  { color: dodgerblue; font-size: 18px; font-weight: bolder; font-family: helvetica, sans-serif;} 
-#Many-sheep  { color: dodgerblue; font-size: 18px; font-weight: bolder; font-family: helvetica, sans-serif;} 
-#Absolute-sheep  { color: dodgerblue; font-size: 18px; font-weight: bolder; font-family: helvetica, sans-serif;} 
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;}
-
-#banner { background-color: skyblue; }
-
-.row {
-  float: left;
-  width: 25.00%;
-  padding: 10px;
-  padding-left: 0px;
-  padding-top: 20px;
-  display: table;
-  object-fit: cover;}
-
-footer {background-color: deepskyblue; 
-		color: black; 
-		font-weight: normal;
-		font-size: 14px;
-		padding: 30px; 
-		bottom: 0; 
-		left: 0; 
-		right: 0; 
-		position: absolute;}
+.row:before,
+.row:after {
+content: " ";
+display: table;
+}
+.row:after {
+clear: both;
+}
 
 
+
+body { 
+	background-color:lightcyan;
+	font-family: IBM Plex Sans bold, sans-serif; 
+}
+.hawaii img { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+ 	width: 70%;
+ }
+.hawaii ul {
+	text-align: center;
+	background-color: khaki;
+}
+.hawaii li {
+	display: inline-block;
+	padding: 25px;
+	letter-spacing: 1px; 
+	font-weight: bold;
+}
+.hawaii a {
+	text-decoration: none;
+	color: midnightblue;
+}
+.totpop {
+	text-align: center;
+	margin-top: 20px;
+	display: grid;
+}
+#current {
+	font-size: 1.5em;
+}
+#updated {
+	font-weight: lighter;
+	font-size: 1em;
+}
+.container {
+	font-family: IBM Plex Sans bold, sans-serif; 
+	font-size: 1.5em;
+	text-align: center;
+	margin: auto;
+	display: inline;
+}
+h1 {
+	font-family: IBM Plex Sans bold, sans-serif; 
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 30px;
+}
+.col-3 img {
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover;
+}
+.col-4 img {
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover;
+}
+.col-5 img {
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover;
+}
+
+h3 { font-size: 1em;
+	 }
+p { font-size: .75em; }
+
+.button a { 
+		text-align: center;
+		color: midnightblue;
+		text-decoration: none;
+		border: 4px solid khaki;
+		background-color: khaki;
+		border-radius: 8px;
+		padding: .6em 1em;
+}
+.button {
+		text-align: center;
+		margin-top: 60px;
+}
 
