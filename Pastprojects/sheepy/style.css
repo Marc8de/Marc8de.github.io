@@ -1,0 +1,52 @@
+/* sheepy */
+
+.movingtext {color: black; 
+			font-size: 18px; 
+			font-weight: bolder; 
+			font-family: helvetica, sans-serif; 
+			padding: 8px; 
+			background-color: lightcyan; 
+			text-indent: 30px}
+
+/*   Nav     */
+
+ul { list-style-type: none; } /* - bullets */
+a { text-decoration: none; } /* - underline */ 
+img {margin-left: 35px}
+li {display: inline; margin-inline-end: 50px;}
+
+#A-sheep  { color: dodgerblue; font-size: 18px; font-weight: bolder; font-family: helvetica, sans-serif;} 
+#Some-sheep  { color: dodgerblue; font-size: 18px; font-weight: bolder; font-family: helvetica, sans-serif;} 
+#Many-sheep  { color: dodgerblue; font-size: 18px; font-weight: bolder; font-family: helvetica, sans-serif;} 
+#Absolute-sheep  { color: dodgerblue; font-size: 18px; font-weight: bolder; font-family: helvetica, sans-serif;} 
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
+
+#banner { background-color: skyblue; }
+
+.row {
+  float: left;
+  width: 25.00%;
+  padding: 10px;
+  padding-left: 0px;
+  padding-top: 20px;
+  display: table;
+  object-fit: cover;}
+
+footer {background-color: deepskyblue; 
+		color: black; 
+		font-weight: normal;
+		font-size: 14px;
+		padding: 30px; 
+		bottom: 0; 
+		left: 0; 
+		right: 0; 
+		position:absolute;}
+
+
+
+
