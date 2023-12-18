@@ -1,0 +1,323 @@
+/* CSS style sheet for project 4  
+
+*Colours* (From light to dark)
+#FFFFFF
+#ECDAD0
+#524000
+#381901
+
+*Font choices*
+Nunito Sans
+
+
+*/
+/* to hide the white space on the right */
+html,body { 
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+/* Global Styling */
+
+img {
+	max-width: 100%;
+}
+
+*
+/*  box model fix */
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* clear fix */
+
+.clearfix:before
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+/* Global styles rules */
+/* Type hierarchy styling */
+
+h1{ font-family: Nunito Sans, sans-serif; 
+	font-size: 60px;
+	font-weight: 800;
+}
+
+h2{
+	
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+a{
+
+}
+
+/* ~~~~~~~~~~~~~~Header Styles~~~~~~~~~~~~~~~ */
+
+ul{	
+
+}
+header li {
+	list-style: none;  
+}
+header li a {
+	text-decoration: none;
+}
+.navbar-nav{
+}
+
+/* header background colour */
+.nav-link {
+	color: #ffffff;
+	font-family: Nunito Sans, sans-serif;
+	font-weight: 600;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    background-color: #ffffff;
+    opacity: 70%;
+    border: none;
+    border-radius: .75rem;
+}
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, .4);
+	border-color: transparent;
+}
+
+@media screen and (max-width: 575px){
+	.navbar .container-fluid {flex-direction: column; flex-wrap: nowrap;}
+	.container {width: auto;}
+	.navbar-brand {margin: 0}
+	.navbar-toggler{margin-top: 10px}
+}
+
+
+/* ~~~~~~~~~~~~~~Homepage Styles~~~~~~~~~~~~~~~ */
+.dropdown-item {color: #ECDAD0;}
+
+.carousel-caption {text-align: left;}
+.herobtn { 
+	background-color:#ECDAD0; 
+	padding: 12px 20px 12px 20px; 
+	border: none; 
+	border-radius:39px;
+	margin-top: 12px;
+	margin-bottom: 10em;
+}
+.herobtn a{
+	font-family: Nunito Sans, sans-serif;
+	color: #000000;
+	font-size:18px; 
+	font-weight: 500;
+	text-decoration:none  
+}
+.icontext {
+	font-weight: 300;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 30px;
+}
+.btn-outline-dark {
+	border-color: #ffffff;
+	border-width: 1px;
+}
+.learnbtn { border-radius: 39px;
+	border-style: solid;
+	padding: 8px 14px 8px 14px; 
+}
+.learnbtn a{
+	font-family: Nunito Sans, sans-serif;
+	color: #ffffff;
+	font-size:18px; 
+	font-weight: 300;
+	text-decoration:none
+}
+#whoarewe {
+	color: #ECDAD0;
+	background-color: #381901;
+	padding-top: 8em;
+	text-align: center;
+	line-height: 1.5;
+}
+#imgourhistory{ 
+	width:100%;
+	padding: 1rem 0rem 0rem 0rem;
+	margin-bottom: -100px;
+ }
+ #ourhistory {
+	color: #ECDAD0;
+	background-color: #381901;
+	padding-top: 8em;
+	text-align: left;
+	line-height: 1.5;
+}
+.ourhistory-text {
+	float: left;
+	padding-top: 10rem;
+}
+#ourteam {
+	background-color: #524000;
+	color: #ECDAD0;
+	text-align: center;
+	padding-top: 10em;
+	padding-bottom: 10em;
+	line-height: 1.5;
+}
+.teamintro {
+	font-size: 14px;
+	text-align: left;
+}
+#ourworkplace {
+	background-color: #381901;
+	color: #ECDAD0;
+	text-align: left;
+	padding-bottom: 5em;
+}
+.ourworkplace-text{ 
+	padding-top:2rem
+}
+#imgourworkplace {margin-top: -60px;
+height: 110%;
+}
+
+#wecare {
+	background-image: url(image/wecare.jpg);
+	color: #ECDAD0;
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+.checkoutbtn{
+	background-color:#ECDAD0; 
+	padding: 12px 20px 12px 20px; 
+	border: none; 
+	border-radius:39px;
+	margin-top: 2em;
+}
+.checkoutbtn a{
+	font-family: Nunito Sans, sans-serif;
+	font-size:14px; 
+	font-weight: 400; 
+	color: #000000;
+	text-decoration: none; 
+}
+#checkoutsec {
+	background-color: #381901;
+	color: #ECDAD0;
+	text-align: center;
+	align-content: center;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+#checkoutsec h1{
+	font-weight: 200;
+}
+
+@media screen and (max-width: 1062px){
+.carousel-caption h1{font-size: 2.5em;}
+}
+@media screen and (max-width: 800px){
+	.herobtn{margin-bottom: 3em;}
+}
+@media screen and (max-width: 650px){
+	.herobtn{margin-bottom: 2em;}
+	.carousel-caption h1{font-size: 1.5em;}
+	.icontext {margin-bottom: 2.5px;}
+}
+
+/*~~~~~~~~~~~~~~~Footer Styles~~~~~~~~~~~~~~~ */
+footer {
+	background-color: #524000;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+footer li {
+	list-style: none;  
+	margin-bottom: 16px;
+}
+footer li a {
+	text-decoration: none;
+}
+.footer-nav li a{
+	font-family: Nunito Sans, sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+}
+.footer-text p{ 
+	font-family: Nunito Sans, sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+}
+
+/** GALLERY PAGE BEGINS HERE **/
+
+#grad {
+	background-color: #381901;
+}
+#gallery-banner{
+	background-image: url(image/gallerybanner.png);
+	object-fit: cover;
+	object-position: center;
+	color: #ECDAD0;
+	padding-top: 7em;
+	padding-bottom: 7em;
+	text-align: center;
+	line-height: 2;
+}
+#gallerywall {
+	background-color: #381901;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+/*  CONTACT PAGE BEGINS HERE  */
+#contactus-banner{
+	background-image: url(image/contactusbanner.jpg);
+	object-fit: cover;
+	object-position: center;
+	color: #ECDAD0;
+	padding-top: 7em;
+	padding-bottom: 7em;
+	text-align: center;
+	line-height: 2;
+}
+#contactwall {
+	padding-top: 2.5em;
+	background-color: #381901;
+}
+label{
+	color: #ECDAD0;
+}
+.subbtn{
+	font-size:14px; 
+	font-weight: 400; 
+	color: #000000; 
+	background-color:#ECDAD0; 
+	padding: 12px 20px 12px 20px; 
+	border: none; 
+	border-radius:39px;
+	margin-top: 1em;
+	margin-bottom: 4em;
+}
+
+
